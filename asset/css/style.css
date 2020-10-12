@@ -1,29 +1,17 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .container {
   height: 600px;
   width: 900px;
+  margin: 30px;
+  box-shadow: 7px 7px 10px #607d8b;
+  border-radius: 20px;
   background-size: cover;
   position: relative;
-  bottom: 50%;
-  left: 50%;
-  transform: translate(-50% -50%);
-
 }
-
-.layover {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  opacity: 0.5;
-}
-
 
 .bg_1 {
   background-image: url("https://www.australia.com/content/dam/assets/photograph/digital/1/6/z/e/5/2005421.jpg");
@@ -38,8 +26,22 @@
 }
 
 .title {
-  position: relative;
-  bottom: 50%;
+  color: white;
+  font-size: 30px;
+  text-shadow: 7px 7px 10px #607d8b;
+  position: absolute;
+  top: 50%;
   width: 100%;
   text-align: center;
+}
+
+.layover {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
 }
